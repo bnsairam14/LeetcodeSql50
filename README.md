@@ -9,6 +9,5 @@ I’m solving in **MySQL**, and I’m also posting detailed explanations on my Y
 
 ### 1757. Recyclable and Low Fat Products  
 ```sql
-SELECT product_id
-FROM Products
+SELECT product_id FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
