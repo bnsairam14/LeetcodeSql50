@@ -1,2 +1,2 @@
--- Problem: 1757. Recyclable and Low Fat Products
+#Problem: 1757. Recyclable and Low Fat Products
 Select product_id  from Products Where low_fats ='Y' and recyclable ='Y';
