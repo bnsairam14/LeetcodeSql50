@@ -21,7 +21,11 @@ I am **B.N. Sairam**, and I create SQL tutorials on YouTube to help beginners an
 3. Copy and run the SQL queries in your MySQL environment.  
 
 ---
-📚 LeetCode SQL50 Problems
-1757. Recyclable and Low Fat Products
-SELECT product_id FROM Products
+## 📚 LeetCode SQL50 Problems
+
+### 1757. Recyclable and Low Fat Products
+```sql
+SELECT product_id
+FROM Products
 WHERE low_fats = 'Y' AND recyclable = 'Y';
+
